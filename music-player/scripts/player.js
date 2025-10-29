@@ -4,7 +4,7 @@ export default class player {
 		this.index = 0;
 		this.audio = new Audio(playlist[this.index].src);
 		this.shuffleMode = false;
-		this.repeatMode = false
+		this.repeatMode = false;
 	}
 	play(){
 		this.audio.play();
