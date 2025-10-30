@@ -2,7 +2,7 @@ export default class UIManager {
 	constructor(){
 		this.cover = document.getElementById('cover');
 		this.title = document.getElementById('song-title');
-		this.title = document.getElementById('artist');
+		this.artist = document.getElementById('artist');
 		this.playbtn = document.getElementById('play-pause');
 		this.progress = document.getElementById('progress');
 		this.currentTime = document.getElementById('current-ti');
